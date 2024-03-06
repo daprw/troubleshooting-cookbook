@@ -1,7 +1,14 @@
 # **Troubleshooting Cookbook**
 Random collection of stuff I can't remember, thoughts and findings throughout my various troubleshooting voyages.
 
-# **Systemd
+# **Systemd**
+
+# **TLS**
+
+## Viewing a websites TLS certificate
+There are freely available TSL/SSL certificate tools online as well as inspection tools built into modern web browsers. To quickly verify the status of a websites TLS cert via the command line, use the `openssl` command.
+
+- `openssl s_client -connect example.com:443`
 
 # **Firewalls**
 
